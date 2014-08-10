@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER Matt Koski <maccam912@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install git python build-essential wget screen tmux curl vim mongodb-org -y
+RUN apt-get install git python build-essential wget screen tmux curl vim -y
 
 RUN mkdir /Development
 RUN cd /Development && git clone git://github.com/joyent/node
