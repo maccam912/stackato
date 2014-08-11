@@ -15,8 +15,7 @@ RUN npm install -g bower grunt-cli yo generator-meanjs express
 
 RUN curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 
-RUN wget http://www.activestate.com/stackato/download_client/thank-you?dl=http://downloads.activestate.com/stackato/client/v3.1.1/stackato-3.1.1-linux-glibc2.3-x86_64.zip && unzip stackato* && export PATH=$(pwd)/stackato;$PATH
-
+RUN wget http://www.activestate.com/stackato/download_client/thank-you?dl=http://downloads.activestate.com/stackato/client/v3.1.1/stackato-3.1.1-linux-glibc2.3-x86_64.zip && unzip stackato*
 
 EXPOSE 80:80
 EXPOSE 443:443
