@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM maccam912/nodejs
 MAINTAINER Matt Koski <maccam912@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y
@@ -23,5 +23,5 @@ EXPOSE 3000:3000
 
 
 
-RUN echo "\n##############################\n1. Create a new user with adduser, 'su' into that user.\n2. 'yo meanjs' to scaffold your app in the current directory.\n3. Start mongo in the background (e.g. 'mongod &')\n##############################\n"
+RUN echo "\n##############################\nStackato installed\n##############################\n"
 
