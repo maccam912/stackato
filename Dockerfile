@@ -1,4 +1,4 @@
-FROM maccam912/nodejs
+FROM ubuntu
 MAINTAINER Matt Koski <maccam912@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y
